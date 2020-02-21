@@ -3,7 +3,7 @@
 <b>what is Component ? </b>:- <br>
 When we are creating and dividing a page  into multiple section and that section we called as Component. <br><br>
 <b>Component Life Cycle Methode :-  </b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we adding and removing in components at multiple times and vice versa or multilple change in single component.Till now there are two stages which are adding and deleting in component. But like this for a component there is going to be multiple phases. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we adding and removing in components at multiple times and vice versa or multilple change in single component.Till now there are two stages which are adding and deleting in component. But like this for a component there is going to be multiple phases. <br>
 <br><br>
 So there are four phases in component’s lifecyle method :-  
                                         1).Mounting phase <br>
