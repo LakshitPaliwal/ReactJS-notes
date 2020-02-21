@@ -11,4 +11,5 @@ So there are four phases in component’s lifecyle method :-
                                         3).Initialization phase <br>
                                         4).Unmunting phase <br><br>
 <b>Mounting phase :-</b>&nbsp;&nbsp;Whenever a component is loading to the UI that we are going to called as a mounting, and when a component is being created and inserted into the DOM or UI that phase we called it mounting.<br><br>
-<b>Updating phase :-</b>&nbsp;&nbsp;When a Component is beig Re-render due to their any changing in props and state or any user action, a component is going to Re-render on the UI or DOM that phase we are called as a updating life cycle  phase
+<b>Updating phase :-</b>&nbsp;&nbsp;When a Component is beig Re-render due to their any changing in props and state or any user action, a component is going to Re-render on the UI or DOM that phase we are called as a updating life cycle  phase.<br>
+whenever we are trying to change in state of a component then component will Re-render
