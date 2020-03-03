@@ -23,13 +23,13 @@ In<b>Mounting phase</b> there is two methodes :- <br>
 <code>Constructor()</code>{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>super();</code><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>this,state = {</code><br>
-&nbsp;&nbsp;&nbsp;<code>username : ''</code><br>
-&nbsp;&nbsp;&nbsp;<code>}</code><br>
-&nbsp;&nbsp;<code>}</code>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>username : ''</code><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;&nbsp;<code>}</code>
 
 <br><br><br>
 <b>Eg.</b><br>
 <code>static getDerivedStateFromProps(props, state)</code>{<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>return null;</code><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>}</code> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>return null;</code><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>}</code> 
 <br><br><br>
