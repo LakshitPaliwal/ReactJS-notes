@@ -20,16 +20,16 @@ In<b>Mounting phase</b> there is two methodes :- <br>
                                                   2). <code>static getDerivedStateFromProps ()</code>
                                                   <br><br>
 <b>Eg.</b><br>
-<code>Constructor(){<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super();<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this,state = {<br>
-&nbsp;&nbsp;&nbsp; username : ''<br>
-&nbsp;&nbsp;&nbsp;}<br>
-&nbsp;&nbsp;}
-</code>
+<code>Constructor()</code>{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>super();</code><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>this,state = {</code><br>
+&nbsp;&nbsp;&nbsp;<code>username : ''</code><br>
+&nbsp;&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;<code>}</code>
+
 <br><br><br>
 <b>Eg.</b><br>
-<code>static getDerivedStateFromProps(props, state){<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return null;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code> 
+<code>static getDerivedStateFromProps(props, state)</code>{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>return null;</code><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>}</code> 
 <br><br><br>
