@@ -5,7 +5,7 @@ When we are creating and dividing a page  into multiple section and that section
 <b>Component Life Cycle Methode :-  </b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we adding and removing in components at multiple times and vice versa or multilple change in single component.Till now there are two stages which are adding and deleting in component. But like this for a component there is going to be multiple phases. <br>
 <br><br>
-So there are mainly three phases in component’s lifecyle method :-<br>  
+So there are mainly three phases in component’s lifecyle method :-  
                                         1).Mounting phase <br>
                                         2).Updating phase <br>
                                         3).Unmunting phase <br>
@@ -18,3 +18,16 @@ whenever we are trying to change in state of a component then component will Re-
 In<b>Mounting phase</b> there is two methodes :- <br> 
                                                   1). <code>Constructor()</code> methode <br> 
                                                   2). <code>static getDerivedStateFromProps ()</code>
+Eg.<br>
+<code>Constructor(){
+                super();
+                this,state = {
+                username : ''
+                 }
+            }
+</code>
+
+Eg.<br>
+<code>static getDerivedStateFromProps(props, state){
+                             return null;
+                             }</code> 
