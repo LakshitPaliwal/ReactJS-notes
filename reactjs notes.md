@@ -18,16 +18,18 @@ whenever we are trying to change in state of a component then component will Re-
 In<b>Mounting phase</b> there is two methodes :- <br> 
                                                   1). <code>Constructor()</code> methode <br> 
                                                   2). <code>static getDerivedStateFromProps ()</code>
-Eg.<br>
-<code>Constructor(){
-                super();
-                this,state = {
-                username : ''
-                 }
-            }
+                                                  <br><br>
+<b>Eg.</b><br>
+<code>Constructor(){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this,state = {<br>
+&nbsp;&nbsp;&nbsp; username : ''<br>
+&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;}
 </code>
-
-Eg.<br>
-<code>static getDerivedStateFromProps(props, state){
-                             return null;
-                             }</code> 
+<br><br><br>
+<b>Eg.</b><br>
+<code>static getDerivedStateFromProps(props, state){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return null;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code> 
+<br><br><br>
