@@ -2,13 +2,13 @@
 
 TO check running Verion of react on your system
 
-npm view react version
+```npm view react version```
 
 
 
 TO check running Verion of react native on your system
 
-npm view react-native version
+```npm view react-native version```
 
 
 
