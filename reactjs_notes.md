@@ -1,4 +1,17 @@
 # Knowledge-about-ReactJS
+
+TO check running Verion of react on your system
+
+npm view react version
+
+
+
+TO check running Verion of react native on your system
+
+npm view react-native version
+
+
+
 <b>reactjs concepts</b> <br>
 <b>what is Component ? </b>:- <br>
 When we are creating and dividing a page  into multiple section and that section we called as Component. <br><br>
@@ -33,3 +46,5 @@ In<b>Mounting phase</b> there is two methodes :- <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>return null;</code><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>}</code> 
 <br><br><br>
+
+
